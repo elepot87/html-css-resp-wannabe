@@ -146,3 +146,42 @@ img {
     margin-bottom: 40px;
   }
 }
+
+/* Per schermi 768px */
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  /* General */
+  * {
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .row {
+    max-width: 100%;
+    margin-top: 60px;
+    padding: 16px;
+  }
+
+  /* Blocco lezioni */
+
+  #lezioni .row > .left,
+  #lezioni .row > .right {
+    width: 50%;
+    margin-top: 40px;
+    padding: 0 6%;
+  }
+
+  /* #lezioni .row > .left {
+    margin-right: 10%;
+  } */
+
+  #lezioni .row > .left img,
+  #lezioni .row > .right img {
+    max-width: 100%;
+    height: 160px;
+  }
+}
