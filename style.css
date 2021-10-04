@@ -147,7 +147,7 @@ img {
   }
 }
 
-/* Per schermi tra 420 px e 768px */
+/* Per schermi tra 420px e 768px */
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
   /* General */
