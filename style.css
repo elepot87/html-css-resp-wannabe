@@ -147,7 +147,7 @@ img {
   }
 }
 
-/* Per schermi 768px */
+/* Per schermi tra 420 px e 768px */
 
 @media screen and (min-width: 420px) and (max-width: 768px) {
   /* General */
@@ -183,5 +183,40 @@ img {
   #lezioni .row > .right img {
     max-width: 100%;
     height: 160px;
+  }
+
+  /* Blocco Steps */
+
+  #steps .row > h1,
+  #why .row > h1 {
+    margin: 40px 0;
+  }
+
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+    padding: 0 2%;
+  }
+
+  #steps .row > .left img,
+  #steps .row > .central img,
+  #steps .row > .right img {
+    max-width: 100%;
+    height: 150px;
+  }
+
+  /* Blocco Why */
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    margin: 50px 0;
+  }
+
+  #why .row img {
+    height: 150px;
+  }
+
+  #why .row hr {
+    margin: 40px 0;
   }
 }
